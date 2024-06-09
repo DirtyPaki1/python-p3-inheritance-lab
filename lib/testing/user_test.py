@@ -13,3 +13,4 @@ class TestUser:
         '''initializes with first and last name.'''
         my_user = User("My", "User")
         assert((my_user.first_name, my_user.last_name) == ("My", "User"))
+        
